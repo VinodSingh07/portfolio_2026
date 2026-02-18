@@ -1,16 +1,24 @@
 "use client";
 import React from "react";
+import { BsGithub } from "react-icons/bs";
+import { CgVercel } from "react-icons/cg";
 import { DiJava } from "react-icons/di";
 import {
+  SiApifox,
+  SiBootstrap,
   SiClerk,
+  SiExpress,
   SiFirebase,
   SiGit,
+  SiHtml5,
   SiJavascript,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostgresql,
   SiPostman,
   SiReact,
+  SiRedux,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -21,6 +29,11 @@ const skills = [
     name: "Java",
     icon: <DiJava />,
     percentage: 85,
+  },
+  {
+    name: "HTML",
+    icon: <SiHtml5 />,
+    percentage: 99,
   },
   {
     name: "JavaScript",
@@ -63,6 +76,11 @@ const skills = [
     percentage: 95,
   },
   {
+    name: "GitHub",
+    icon: <BsGithub />,
+    percentage: 88,
+  },
+  {
     name: "Firebase",
     icon: <SiFirebase />,
     percentage: 90,
@@ -76,6 +94,38 @@ const skills = [
     name: "Postman",
     icon: <SiPostman />,
     percentage: 98,
+  },
+  {
+    name: "Vercel",
+    icon: <CgVercel />,
+    percentage: 95,
+  },
+
+  {
+    name: "REST API",
+    icon: <SiApifox />,
+    percentage: 91,
+  },
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql />,
+    percentage: 80,
+  },
+
+  {
+    name: "Bootstrap",
+    icon: <SiBootstrap />,
+    percentage: 94,
+  },
+  {
+    name: "expressJS",
+    icon: <SiExpress />,
+    percentage: 86,
+  },
+  {
+    name: "Redux",
+    icon: <SiRedux />,
+    percentage: 90,
   },
 ];
 
