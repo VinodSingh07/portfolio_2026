@@ -2,69 +2,65 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { CgVercel } from "react-icons/cg";
-import { DiJava } from "react-icons/di";
+import { BsBarChartFill } from "react-icons/bs";
 import {
-  SiApifox,
-  SiBootstrap,
-  SiClerk,
-  SiExpress,
+  SiClaude,
   SiFirebase,
   SiGit,
-  SiHtml5,
-  SiJavascript,
+  SiGooglegemini,
+  SiGooglesheets,
   SiMongodb,
-  SiNextdotjs,
-  SiNodedotjs,
+  SiMysql,
   SiPostgresql,
   SiPostman,
-  SiReact,
-  SiRedux,
-  SiTailwindcss,
-  SiTypescript,
+  SiPython,
+  SiTableau,
 } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
 
 const skills = [
   {
-    name: "Java",
-    icon: <DiJava />,
-    percentage: 85,
+    name: "Python",
+    icon: <SiPython />,
+    percentage: 90,
   },
   {
-    name: "HTML",
-    icon: <SiHtml5 />,
-    percentage: 99,
+    name: "Advanced Excel",
+    icon: <SiGooglesheets />,
+    percentage: 90,
   },
   {
-    name: "JavaScript",
-    icon: <SiJavascript />,
-    percentage: 89,
+    name: "Power BI",
+    icon: <BsBarChartFill />,
+    percentage: 90,
   },
   {
-    name: "React Js",
-    icon: <SiReact />,
-    percentage: 91,
+    name: "PostgreSQL",
+    icon: <SiPostgresql />,
+    percentage: 90,
   },
   {
-    name: "Next.js",
-    icon: <SiNextdotjs />,
-    percentage: 80,
+    name: "Mysql",
+    icon: <SiMysql />,
+    percentage: 90,
+  },
+
+  {
+    name: "Tableau",
+    icon: <SiTableau />,
+    percentage: 90,
   },
   {
-    name: "Node.js",
-    icon: <SiNodedotjs />,
-    percentage: 88,
+    name: "Claude",
+    icon: <SiClaude />,
+    percentage: 90,
   },
   {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss />,
-    percentage: 94,
+    name: "Gemini",
+    icon: <SiGooglegemini />,
+    percentage: 90,
   },
-  {
-    name: "Typescript",
-    icon: <SiTypescript />,
-    percentage: 86,
-  },
+
   {
     name: "MongoDB",
     icon: <SiMongodb />,
@@ -81,51 +77,9 @@ const skills = [
     percentage: 88,
   },
   {
-    name: "Firebase",
-    icon: <SiFirebase />,
-    percentage: 90,
-  },
-  {
-    name: "Clerk",
-    icon: <SiClerk />,
-    percentage: 97,
-  },
-  {
-    name: "Postman",
-    icon: <SiPostman />,
-    percentage: 98,
-  },
-  {
     name: "Vercel",
     icon: <CgVercel />,
     percentage: 95,
-  },
-
-  {
-    name: "REST API",
-    icon: <SiApifox />,
-    percentage: 91,
-  },
-  {
-    name: "PostgreSQL",
-    icon: <SiPostgresql />,
-    percentage: 80,
-  },
-
-  {
-    name: "Bootstrap",
-    icon: <SiBootstrap />,
-    percentage: 94,
-  },
-  {
-    name: "expressJS",
-    icon: <SiExpress />,
-    percentage: 86,
-  },
-  {
-    name: "Redux",
-    icon: <SiRedux />,
-    percentage: 90,
   },
 ];
 

@@ -83,24 +83,32 @@ const Contact = () => {
 
               <div className="flex items-center space-x-3 mb-4">
                 <BiMap className="w-9 h-9 text-cyan-300" />
-                <p className="text-xl font-bold text-gray-400">
-                  Almora, Uttarakhand, India
-                </p>
+                <p className="text-xl font-bold text-gray-400">Noida, India</p>
               </div>
             </div>
 
             {/* Social Icons */}
             <div className="flex items-center mt-8 space-x-3">
               <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300 cursor-pointer">
-                <FaFacebookF className="text-white w-6 h-6" />
+                <a
+                  href="https://www.linkedin.com/in/vinodsinghofficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-blue-500 transition"
+                >
+                  <FaLinkedin className="text-white w-6 h-6" />
+                </a>
               </div>
 
               <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300 cursor-pointer">
-                <FaLinkedin className="text-white w-6 h-6" />
-              </div>
-
-              <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300 cursor-pointer">
-                <FaGithub className="text-white w-6 h-6" />
+                <a
+                  href="https://github.com/VinodSingh07"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-blue-500 transition"
+                >
+                  <FaGithub className="text-white w-6 h-6" />
+                </a>
               </div>
             </div>
           </div>

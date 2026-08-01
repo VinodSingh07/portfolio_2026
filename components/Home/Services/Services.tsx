@@ -5,15 +5,14 @@ const Services = () => {
   return (
     <div className="pt-16 pb-16">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
-        Working across Web Development, <br /> AI Agents, System Design, <br />
-        and scalable software solutions.
+        Building Data-Driven Solutions with Analytics, Visualization & AI
       </h1>
       <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
         <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <ServiceCard
             icon="/images/s1.png"
-            name="System Design"
-            description="Designing scalable, reliable, and high-performance systems by defining architecture, data flow, and infrastructure that can grow with real-world demands."
+            name="Data Analysis"
+            description="Cleaning, transforming, and analyzing structured data using SQL, Python, Pandas, and Excel to uncover trends, solve business problems, and support data-driven decisions."
           />
         </div>
         <div
@@ -23,8 +22,8 @@ const Services = () => {
         >
           <ServiceCard
             icon="/images/s2.png"
-            name="Web and Mobile App"
-            description="Building responsive, user-focused web and mobile applications using modern frameworks, optimized for performance, accessibility, and real-world usage."
+            name="Dashboard & Visualization"
+            description="Designing interactive dashboards in Power BI and Tableau that transform complex datasets into clear, meaningful visual stories for stakeholders."
           />
         </div>
         <div
@@ -34,8 +33,8 @@ const Services = () => {
         >
           <ServiceCard
             icon="/images/s3.png"
-            name="AI Agents"
-            description="Creating intelligent AI agents that automate tasks, analyze data, and interact naturally using modern LLMs, APIs, and workflow orchestration."
+            name="AI-Powered Analytics"
+            description="Leveraging Generative AI, LLMs, Claude, ChatGPT, and AI-assisted workflows to accelerate analysis, automate reporting, generate insights, and improve productivity."
           />
         </div>
         <div
@@ -45,8 +44,8 @@ const Services = () => {
         >
           <ServiceCard
             icon="/images/s4.png"
-            name="Development"
-            description="Developing clean, maintainable, and production-ready software with a strong focus on performance, security, and best engineering practices."
+            name="Data Engineering & SQL"
+            description="Writing optimized SQL queries, building PostgreSQL/MySQL databases, performing ETL, and preparing reliable datasets for analysis and business reporting."
           />
         </div>
       </div>

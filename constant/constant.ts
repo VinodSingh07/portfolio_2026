@@ -1,21 +1,19 @@
 // Project Section Logo's
-import videoConfApp from "../public/images/Project_images/p1.png";
-import AiYoutubeThumb from "../public/images/Project_images/p2.png";
-import AiInterview from "../public/images/Project_images/p3.png";
-import PersonalPortfolio from "../public/images/Project_images/p4.png";
-import JobTracker from "../public/images/Project_images/p5.png";
+import CustomerBehaviorDashboard from "../public/images/Project_images/Customer_behavior_dashboard.png";
+import SalesPerformanceDashboard from "../public/images/Project_images/Sales Performance Dashboard(Gamezone Products).png";
+import HR_Dashboard from "../public/images/Project_images/HR Dashboard.png";
+import FinancialDashboard from "../public/images/Project_images/Finance Performance Dashboard.png";
 
 // Experience Section Logo's
 
 import dxcLogo from "../public/images/company_logo/Dxc.png";
 import codingNinjaLogo from "../public/images/company_logo/codingNinjas.png";
-import neighbourlyLogo from "../public/images/company_logo/Neighbourly.png";
 
 // Education Section Logo's
-import lpuLogo from "../public/images/education_logo/Lpu.jpeg";
-import codingNinjasLogo from "../public/images/education_logo/codingNinjas.png";
-import amuLogo from "../public/images/education_logo/amu.jpeg";
 import apsLogo from "../public/images/education_logo/APS.jpeg";
+import microsoftLogo from "../public/images/education_logo/Microsoft_logo.avif";
+import googleLogo from "../public/images/education_logo/google-logo.webp";
+import amuLogo from "../public/images/education_logo/amu.jpeg";
 
 export const NavLinks = [
   { id: "about", label: "About", url: "#about" },
@@ -30,69 +28,45 @@ export const experiences = [
   {
     id: 0,
     img: dxcLogo,
-    role: "Software Analyst",
+    role: "Analyst III",
     company: "DXC Technology",
-    date: "Sept 2022 - Sept 2025",
-    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "TypeScript",
-      "Node JS",
-      "Tailwind CSS",
-      "MongoDb",
-      "Redux",
-      " Next Js",
-    ],
+    date: "Sept 2022 - Sept 2024",
+    desc: `• Processed and standardized 100,000+ insurance records for U.S. clients using Excel and SQL, ensuring data accuracy for weekly reporting, policy tracking, and business analysis.
+           • Developed automated Excel reports and interactive Power BI dashboards to monitor insurance KPIs, customer trends, and operational performance, reducing manual reporting effort by 40% across 4 departments.
+           • Collaborated with 4 analysts and 2 senior managers to validate business requirements, define 6 key KPIs, and deliver accurate reports supporting client operations and decision-making.`,
+    skills: ["Advanced Excel", "SQL", "Python", "Power BI"],
   },
   {
     id: 1,
     img: codingNinjaLogo,
-    role: "Fullstack Engineer",
+    role: "Junior Analyst Intern",
     company: "Coding Ninjas",
     date: "July 2023 - March 2024",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
-  },
-  {
-    id: 2,
-    img: neighbourlyLogo,
-    role: "Frontend Intern",
-    company: "Newton School",
-    date: "September 2021 - August 2022",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
+    desc: `• Completed a hands-on Data Analytics internship focused on SQL, Excel, Power BI, Tableau, and Google Sheets.
+           • Cleaned, transformed, and analyzed datasets to identify trends, generate business insights, and support data-driven decision-making.
+           • Built interactive dashboards and reports to visualize KPIs, sales performance, and operational metrics while strengthening data storytelling and reporting skills.`,
+    skills: ["Power BI", "Google Sheets", "Tableau", "SQL"],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: lpuLogo,
-    school: "Lovely Professional University",
-    date: "Nov 2025 - Present",
-    grade: "N/A",
-    desc: "I'm doing my Master's degree (MCA) in Computer Applications from LPU, Jalandhar. During my time at LPU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-    degree: "Master of Computer Applications - MCA",
+    img: microsoftLogo,
+    school: "Microsoft",
+    date: "July 2026",
+    grade: "90%",
+    desc: "Validated expertise in Power Query, DAX, data modeling, dashboard development, and business intelligence using Microsoft Power BI.",
+    degree: "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
   },
   {
     id: 1,
-    img: codingNinjaLogo,
-    school: "Coding Ninjas",
-    date: "March 2023 - March 2025",
-    grade: "87.5%",
-    desc: "I completed Coding Ninja's 9 months full-stack development with Gen AI bootcamp. Where i learned frontend and backend technologies specifically MERN stack and DSA in java, CS concepts and System Desing",
-    degree: "Full-Stack Development Bootcamp",
+    img: googleLogo,
+    school: "Coursera",
+    date: "June 2026",
+    grade: "85%",
+    desc: "Completed 8 hands-on case studies coveringspreadsheets, data cleaning, dashboards, and stakeholder presentations.",
+    degree: "Coursera - Google Data Analytics Professional Certificate",
   },
   {
     id: 2,
@@ -117,75 +91,47 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Full-Stack Video Conferencing Application",
-    description:
-      " Developed a Zoom-like (Let’s Talk) platform with real-time video/audio, screen sharing, recording, and participant management for 1000+ users. Integrated with functionalities such as scheduling interviews and providing interview results and analytics",
-    image: videoConfApp,
-    tags: [
-      "React JS",
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "Clerk Authentication",
-      "Stream API",
-    ],
-    github: "https://github.com/VinodSingh07/LetsTalk",
-    webapp: "https://lets-talk-opal.vercel.app/",
+    title: "Customer Shopping Behavior Analysis",
+    description: `This project analyzes customer shopping behavior using Python, SQL, PostgreSQL, and Power BI to uncover meaningful business insights from transactional data.
+                  The project follows a complete end-to-end analytics workflow, including data loading, exploratory data analysis (EDA), data cleaning, SQL-based business analysis, dashboard development, reporting, and business presentation.
+                  The objective is to help businesses understand customer purchasing behavior, identify sales trends, improve marketing strategies, and support data-driven decision-making.`,
+    image: CustomerBehaviorDashboard,
+    tags: ["Python", "PostgreSQL", "Power BI"],
+    github: "https://github.com/VinodSingh07/Customer_behavior_Analysis",
   },
   {
     id: 1,
-    title: "AI YouTube Thumbnail Generator",
-    description:
-      "Developed a full-stack AI-powered thumbnail generator using MongoDB, Express.js, React.js, and Node.js. Integrated Google Gemini API to generate YouTube thumbnails based on title, prompt, style, colors, and aspect ratio",
-    image: AiYoutubeThumb,
-    tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "Google Gemini API",
-      "Cloudinary",
-      "Vercel",
-    ],
-    github: "https://github.com/VinodSingh07/AI_Youtube_Thumbnail_Generator",
-    webapp: "https://thumbnailgo.com/",
+    title: "Sales Performance Dashboard (GameZone Products)",
+    description: `The GameZone Sales Performance Dashboard provides a comprehensive overview of product sales by combining key business metrics with interactive visualizations. It helps business users identify top-performing products, monitor Average Order Value (AOV), track refunds, compare regional sales performance, and evaluate the effectiveness of marketing channels.
+       Designed for sales managers, business analysts, e-commerce teams, and decision-makers, the dashboard transforms raw transactional data into meaningful business insights.`,
+    image: SalesPerformanceDashboard,
+    tags: ["MS Excel", "Mysql", "Tableau"],
+    github:
+      "https://github.com/VinodSingh07/Sales-Performance-Dashboard-Gamezone-Products-",
   },
 
   {
     id: 2,
-    title: "AI Mock Interview Preparation Platform",
-    description:
-      "Built an AI-driven interview preparation platform that simulates real interview scenarios using Google Gen AI",
-    image: AiInterview,
-    tags: ["React JS", "Next.js", "VAPI", "Google Gen Ai"],
-    github: "https://github.com/VinodSingh07/AI-Mock-Interview-Prep",
-    webapp: "https://ai-mock-interview-prep-cuci.vercel.app/",
+    title: "HR Analytics Dashboard",
+    description: `The HR Analytics Dashboard is designed to visualize key Human Resource metrics in a single interactive report. It provides a clear overview of employee demographics, salary distribution, job roles, education levels, leave balances, gender diversity, and workforce growth over time.
+       This dashboard helps HR managers identify workforce trends, monitor employee composition, and support strategic decision-making.`,
+    image: HR_Dashboard,
+    tags: ["Power BI", "Data Preparation", "Data Modelling", "DAX"],
+    github: "https://github.com/VinodSingh07/HR-Analytics-Dashboard-PowerBI",
   },
+
   {
     id: 3,
-    title: "Personal Portfolio Website",
-    description:
-      "A modern, responsive portfolio website built with Next.js and Tailwind CSS to showcase projects, technical skills, and professional experience in a clean and interactive interface.",
-    image: PersonalPortfolio,
-    tags: ["React JS", "Next.js", "TypeScript", "TailwindCSS"],
-    github: "https://github.com/VinodSingh07/portfolio_2026",
-    webapp: "https://vinodsingh-porfolio.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Job-application-tracker",
-    description:
-      "A full-stack job application tracking system built with Next.js, featuring a Kanban board interface for managing your job search. This project is part of a YouTube tutorial series where you'll learn how to build this application step by step.",
-    image: JobTracker,
+    title: "Financial Performance Dashboard",
+    description: `An executive-ready Financial Performance Dashboard built in Power BI to track actual sales, target comparisons, performance variances, sales team metrics, and monthly revenue trends.`,
+    image: FinancialDashboard,
     tags: [
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "Shadcn",
-      "BetterAuth",
-      "MongoDB",
+      "Power BI",
+      "Data Preparation",
+      "Data Modelling",
+      "DAX",
+      "Dashboard Visuals",
     ],
-    github: "https://github.com/VinodSingh07/Job-application-tracker",
-    webapp: "https://job-application-tracker-five-steel.vercel.app/",
+    github: "https://github.com/VinodSingh07/Financial-Performance-Dashboard",
   },
 ];

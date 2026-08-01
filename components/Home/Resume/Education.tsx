@@ -12,12 +12,13 @@ const Education = () => {
       <div className="text-center mb-16">
         <h1 className="text-3xl sm:text-4xl font-bold text-white">
           My <span className="text-cyan-200">Education</span> and{" "}
-          <span className="text-cyan-200">Certification</span>
+          <span className="text-cyan-200">Certifications</span>
         </h1>
 
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A collection of my work experience and the roles I have taken in
-          various organizations
+          My academic background and industry-recognized certifications that
+          strengthen my expertise in data analytics, business intelligence, and
+          AI.
         </p>
       </div>
 

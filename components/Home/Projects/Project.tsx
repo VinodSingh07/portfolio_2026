@@ -34,12 +34,13 @@ const Project = () => {
       {/* Section title */}
       <div className="text-center mb-16">
         <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold text-white">
-          My <span className="text-cyan-300">Projects</span>
+          Featured <span className="text-cyan-300">Projects</span>
         </h1>
 
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A showcase of the projects I have worked on, highlighting my skills
-          and experience in various technologies
+          A collection of data analytics, business intelligence, and AI-powered
+          projects showcasing expertise in SQL, Python, Power BI, Tableau,
+          Excel, and machine learning.
         </p>
 
         {/* Project Grid */}
@@ -59,8 +60,8 @@ const Project = () => {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={500}
-                  height={300}
+                  width={600}
+                  height={400}
                   className="w-full h-48 object-cover rounded-xl"
                 />
               </div>
@@ -119,7 +120,7 @@ const Project = () => {
                 {selectedProject.description}
               </p>
 
-              <div className="flex flex-wrap gap-2 mb-6">
+              <div className="flex flex-wrap justify-center gap-2 mb-6">
                 {selectedProject.tags.map((tag, index) => (
                   <span
                     key={index}
@@ -130,23 +131,14 @@ const Project = () => {
                 ))}
               </div>
 
-              <div className="flex gap-4">
+              <div className="flex justify-center">
                 <a
                   href={selectedProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-1/2 bg-purple-500 hover:bg-purple-800 text-white px-6 py-2 rounded-xl text-center font-semibold"
+                  className="w-full max-w-xs bg-purple-500 hover:bg-purple-800 text-white py-3 rounded-xl text-center font-semibold transition-colors"
                 >
-                  View Code
-                </a>
-
-                <a
-                  href={selectedProject.webapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-1/2 bg-purple-500 hover:bg-purple-800 text-white px-6 py-2 rounded-xl text-center font-semibold"
-                >
-                  View Live
+                  GitHub
                 </a>
               </div>
             </div>

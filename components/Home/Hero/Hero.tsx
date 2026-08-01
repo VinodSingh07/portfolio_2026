@@ -20,7 +20,7 @@ const Hero = () => {
             data-aos="fade-up"
           >
             <Image
-              src="/images/profile.png"
+              src="/images/Profile_photo.png"
               alt="heroimage"
               width={200}
               height={200}
@@ -35,9 +35,9 @@ const Hero = () => {
           data-aos-delay="200"
           className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
         >
-          Clean <span className="text-cyan-200 ">Code. </span>
-          Real <span className="text-cyan-200 ">products. </span>
-          Great <span className="text-cyan-200 ">experiences.</span>
+          Clean <span className="text-cyan-200 ">Data. </span>
+          Powerful <span className="text-cyan-200 ">Visualization. </span>
+          Actionable <span className="text-cyan-200 ">Insights.</span>
         </h1>
         <h2
           data-aos="fade-up"
@@ -49,10 +49,9 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Full-Stack Developer",
-                  "Frontend Developer",
-                  "Backend Developer",
-                  "Web Developer",
+                  "AI Data Analyst",
+                  "Business Analyst",
+                  "Power BI Developer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -68,11 +67,11 @@ const Hero = () => {
           data-aos-delay="600"
           className=" w-[40%] text-center font-bold tracking-wide text-base sm:text-lg md:text-lg text-gray-200 mb-10 mt-8 leading-relaxed"
         >
-          I am a full-stack developer with over 2+ years of experience in
-          building scalable web applications. Skilled in both front-end and
-          back-end development, I specialize in the MERN/PERN stack and other
-          modern technologies to create seamless user experiences and efficient
-          solutions.
+          I am a Data Analyst with 2+ years of professional experience analyzing
+          business data using SQL, Power BI, Excel, and Python. Experienced in
+          data cleaning, dashboard development, KPI reporting, and transforming
+          raw datasets into actionable business insights to support data-driven
+          decision-making.
         </p>
         <button
           onClick={() => {

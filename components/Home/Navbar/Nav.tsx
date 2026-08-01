@@ -7,6 +7,7 @@ import { BiDownload } from "react-icons/bi";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { NavLinks } from "@/constant/constant";
+import { BsBarChartFill } from "react-icons/bs";
 
 type Props = {
   openNav: () => void;
@@ -40,7 +41,7 @@ const Nav = ({ openNav }: Props) => {
         {/* LOGO */}
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-            <FaCode className="w-5 h-5 text-black" />
+            <BsBarChartFill className="w-5 h-5 text-black" />
           </div>
           <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
             Vinod
@@ -76,7 +77,7 @@ const Nav = ({ openNav }: Props) => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/vinod-singh-developer/"
+              href="https://www.linkedin.com/in/vinodsinghofficial/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-blue-500 transition"
@@ -87,7 +88,7 @@ const Nav = ({ openNav }: Props) => {
 
           {/* CV Button */}
           <a
-            href="https://drive.google.com/file/d/1k4EWGyPe0IDe2Kx0ot7IHxPrxf1wkDKE/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wMBH5qS9OqwEsy4vcfvQjaYJhgTdPsV9/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
