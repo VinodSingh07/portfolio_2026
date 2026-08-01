@@ -10,7 +10,7 @@ interface ProjectType {
   image: StaticImageData;
   tags: string[];
   github: string;
-  webapp: string;
+  webapp?: string;
 }
 
 const Project = () => {
